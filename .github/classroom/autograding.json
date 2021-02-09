@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "Question1",
+      "setup": "",
+      "run": "mvn -Dtest=DaoTests test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Question2",
+      "setup": "",
+      "run": "mvn -Dtest=EcommerceServiceTests test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Question3",
+      "setup": "",
+      "run": "mvn -Dtest=ParserTests test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Question4",
+      "setup": "",
+      "run": "mvn -Dtest=ProcessorTest test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    }
+  ]
+}
