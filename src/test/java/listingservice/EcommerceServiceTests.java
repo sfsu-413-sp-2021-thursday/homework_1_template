@@ -36,7 +36,7 @@ public class EcommerceServiceTests {
     String idToDelete = responseDto.items.get(0).entity_id;
 
     responseString = EcommerceService
-        .restApi("http://localhost:1234/api/viewItems?type=" + randomType, gson.toJson(itemDto));
+        .restApi("http://localhost:1234/api/viewItems?type=" + randomType + "a", gson.toJson(itemDto));
     responseDto = gson.fromJson(responseString, new TypeToken<ResponseDto<ItemDto>>(){}.getType());Assert.assertTrue(responseDto.success);
     Assert.assertNotNull(responseDto.date);
     Assert.assertEquals(responseDto.items.size(), 0);
